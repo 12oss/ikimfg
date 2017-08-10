@@ -66,11 +66,9 @@ div#back-to-top {
 }
 
 
+/*end scroll to top*/
 
 
-
-
-/**end scroll to top/
 /*vid player*/
 
 img.thumb {
@@ -84,10 +82,6 @@ div.youtube:hover div.circle {
 	-o-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
 }
-
-
-
-
 
 
 /*lazyload lazysizes*/
@@ -106,9 +100,6 @@ div.youtube:hover div.circle {
 }
 
 
-
-
-
 /*end lazysizes*/
 
 
@@ -119,10 +110,6 @@ div.youtube:hover div.circle {
 		-webkit-text-size-adjust: none;
 	}
 }
-
-
-
-
 
 
 /*end fix for iphone fonts*/
@@ -139,9 +126,6 @@ a#myHeader1 {
 }
 
 
-
-
-
 /* end the toggle hide/show css for pre code tags*/
 
 
@@ -151,11 +135,6 @@ a#myHeader1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-
-
-
-
 
 
 /*icons*/
@@ -180,10 +159,6 @@ footer.footer a i:hover {
 }
 
 
-
-
-
-
 /*end icons*/
 
 
@@ -192,10 +167,6 @@ footer.footer a i:hover {
 .lazy {
 	display: none;
 }
-
-
-
-
 
 
 /*end LAZYLOAD*/
@@ -281,7 +252,6 @@ nav.navbar-fixed-top>div {
 	border-right: 1px solid #333333;
 }
 
-
 #footer-contacts div {
 	display: inline;
 	font-size: 1rem;
@@ -293,11 +263,6 @@ nav.navbar-fixed-top>div {
 	margin-bottom: 0px;
 	display: inline;
 }
-
-
-
-
-
 
 
 /*#footer-social{text-align:right;}*/
@@ -345,11 +310,6 @@ a.scroll-to-top {
 }
 
 
-
-
-
-
-
 /*end scroll to top*/
 
 section.row {
@@ -387,10 +347,6 @@ hr {
 }
 
 
-
-
-
-
 /*FLEX */
 
 .row-eq-height {
@@ -413,10 +369,6 @@ hr {
 }
 
 
-
-
-
-
 /*end FLEX*/
 
 
@@ -433,11 +385,6 @@ hr {
 }
 
 
-
-
-
-
-
 /*global VERTICAL ALIGN (the full width banner class is in separate stylesheet) ***needs a height set to work properly*/
 
 .vertical-align {
@@ -448,11 +395,6 @@ hr {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-
-
-
-
-
 
 
 /*vertical align all holds vertical alignment all the way thru mobile presentations*/
@@ -484,9 +426,6 @@ hr {
 	display: inline-block;
 	padding: 15px;
 }
-
-
-
 
 
 /*end GLOBALS*/
@@ -693,10 +632,6 @@ hr {
 }
 
 
-
-
-
-
 /*end BUTTONS*/
 
 
@@ -705,10 +640,6 @@ hr {
 .text-light {
 	color: rgba(255, 255, 250, 1)
 }
-
-
-
-
 
 
 /**********************************/
@@ -975,20 +906,6 @@ h2.porto.title a:focus {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**********************************/
 
 
@@ -1003,13 +920,14 @@ h2.porto.title a:focus {
 	#footer-logo,
 	#footer-social,
 	#footer-copyright {
-		text-align: center;
+		text-align: left;
 		padding-bottom: 10px;
 	}
 	.footer .max-1080 {
-		border-top: solid #ccc 1px;
+		/*border-top: solid #ccc 1px;*/
 		width: 90%;
 		margin: auto;
+		padding-top: 15px;
 	}
 }
 

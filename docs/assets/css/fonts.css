@@ -7,13 +7,23 @@ TYPEKIT
 font-family: "canada-type-gibson",sans-serif;
 */
 
-h1, .h1 {
-	font-family: "canada-type-gibson",sans-serif;
+h1,
+.h1 {
+	font-family: "canada-type-gibson", sans-serif;
 	font-weight: 200;
 }
 
-.h2, .h3, .h4, .h5, .h6, h2, h3, h4, h5, h6 {
-	font-family: "canada-type-gibson",sans-serif;
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "canada-type-gibson", sans-serif;
 	font-weight: 400;
 	letter-spacing: .25px;
 }
@@ -30,19 +40,22 @@ h1, .h1 {
 	text-shadow: 0 0 100px black, 0 0 20px black;
 }
 
-p, .p {
-	font-family: "canada-type-gibson",sans-serif;
+p,
+.p {
+	font-family: "canada-type-gibson", sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem;
 	letter-spacing: 0px;
 }
 
-ul.default li, ul.checkmarks li, ul.starred li {
+ul.default li,
+ul.checkmarks li,
+ul.starred li {
 	margin: 10px 0;
 	/* not needed, just to add space between the li's */
 	list-style: none;
 	/* Get rid of the default bullet points */
-	font-family: "canada-type-gibson",sans-serif;
+	font-family: "canada-type-gibson", sans-serif;
 	font-weight: 400;
 	font-size: 1.4rem;
 	letter-spacing: 0px;
@@ -78,7 +91,7 @@ ul.starred li:before {
 	color: white;
 	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
 	z-index: 100;
-	font-family: "canada-type-gibson",sans-serif;
+	font-family: "canada-type-gibson", sans-serif;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -91,7 +104,7 @@ ul.starred li:before {
 	color: white;
 	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
 	z-index: 100;
-	font-family: "canada-type-gibson",sans-serif;
+	font-family: "canada-type-gibson", sans-serif;
 	text-align: right;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -105,7 +118,7 @@ ul.starred li:before {
 	color: white;
 	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 20px black, 0 0 10px black;
 	z-index: 100;
-	font-family: "canada-type-gibson",sans-serif;
+	font-family: "canada-type-gibson", sans-serif;
 	text-align: center;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -121,53 +134,64 @@ ul.starred li:before {
 	line-height: 45px;
 }
 
-.h1, h1 {
+.h1,
+h1 {
 	font-size: 3.8rem;
 	line-height: 36px;
 }
 
-.h2, h2 {
+.h2,
+h2 {
 	font-size: 3rem;
 	line-height: 30px;
 }
 
-.h3, h3 {
+.h3,
+h3 {
 	font-size: 2.6rem;
 	line-height: 24px;
 }
 
-.h4, h4 {
+.h4,
+h4 {
 	font-size: 2rem;
 	line-height: 18px;
 }
 
-.h5, h5 {
+.h5,
+h5 {
 	font-size: 1.4rem;
 	line-height: inherit;
 }
 
-.h6, h6 {
+.h6,
+h6 {
 	font-size: 1.2rem;
 	line-height: inherit;
 }
 
-.copy-container-left, .txt-left {
+.copy-container-left,
+.txt-left {
 	text-align: left;
 }
 
-.copy-container-left-always, .text-left-m {
+.copy-container-left-always,
+.text-left-m {
 	text-align: left;
 }
 
-.copy-container-center, .txt-center{
+.copy-container-center,
+.txt-center {
 	text-align: center;
 }
 
-.copy-container-right, .txt-right {
+.copy-container-right,
+.txt-right {
 	text-align: right;
 }
 
-.copy-container-right-always, .txt-right-m {
+.copy-container-right-always,
+.txt-right-m {
 	text-align: right;
 }
 
@@ -189,10 +213,13 @@ ul.starred li:before {
 	color: rgba(230, 250, 200, 1);
 }
 
-a.light-primary, .light-primary a {
+a.light-primary,
+.light-primary a {
 	color: rgba(190, 210, 170, 1);
 }
-a.light-primary:hover, .light-primary a:hover {
+
+a.light-primary:hover,
+.light-primary a:hover {
 	text-decoration: none !important;
 }
 
@@ -204,10 +231,13 @@ a.light-primary:hover, .light-primary a:hover {
 	color: rgba(190, 240, 250, 1);
 }
 
-a.light-success, .light-success a {
+a.light-success,
+.light-success a {
 	color: rgba(190, 240, 250, 1);
 }
-a.light-success:hover, .light-success a:hover {
+
+a.light-success:hover,
+.light-success a:hover {
 	text-decoration: none !important;
 }
 
@@ -219,11 +249,13 @@ a.light-success:hover, .light-success a:hover {
 	color: rgba(250, 220, 250, 1);
 }
 
-a.light-info, .light-info a {
+a.light-info,
+.light-info a {
 	color: rgba(250, 220, 250, 1);
 }
 
-a.light-info:hover, .light-info a:hover {
+a.light-info:hover,
+.light-info a:hover {
 	text-decoration: none !important;
 }
 
@@ -235,11 +267,13 @@ a.light-info:hover, .light-info a:hover {
 	color: rgba(250, 250, 180, 1);
 }
 
-a.light-warning, .light-warning a {
+a.light-warning,
+.light-warning a {
 	color: rgba(250, 250, 180, 1);
 }
 
-a.light-warning:hover, .light-warning a:hover {
+a.light-warning:hover,
+.light-warning a:hover {
 	text-decoration: none !important;
 }
 
@@ -251,10 +285,13 @@ a.light-warning:hover, .light-warning a:hover {
 	color: rgba(250, 200, 210, 1);
 }
 
-a.light-danger, .light-danger a {
+a.light-danger,
+.light-danger a {
 	color: rgba(250, 200, 210, 1);
 }
-a.light-danger:hover, .light-danger a:hover {
+
+a.light-danger:hover,
+.light-danger a:hover {
 	text-decoration: none !important;
 }
 
@@ -266,10 +303,13 @@ a.light-danger:hover, .light-danger a:hover {
 	color: rgba(190, 190, 190, 1);
 }
 
-a.light-inverse, .light-inverse a {
+a.light-inverse,
+.light-inverse a {
 	color: rgba(190, 190, 190, 1);
 }
-a.light-inverse:hover, .light-inverse a:hover {
+
+a.light-inverse:hover,
+.light-inverse a:hover {
 	text-decoration: none !important;
 }
 
@@ -284,7 +324,12 @@ a.light-inverse:hover, .light-inverse a:hover {
 }
 
 @media (max-width: 991px) {
-	.h1, .h2, .h3, h1, h2, h3 {
+	.h1,
+	.h2,
+	.h3,
+	h1,
+	h2,
+	h3 {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
@@ -292,31 +337,38 @@ a.light-inverse:hover, .light-inverse a:hover {
 		font-size: 3.5rem;
 		line-height: 32px;
 	}
-	.h1, h1 {
+	.h1,
+	h1 {
 		font-size: 3.2rem;
 		line-height: 30px;
 	}
-	.h2, h2 {
+	.h2,
+	h2 {
 		font-size: 2.6rem;
 		line-height: 24px;
 	}
-	.h3, h3 {
+	.h3,
+	h3 {
 		font-size: 1.8rem;
 		line-height: inherit;
 	}
-	.h4, h4 {
+	.h4,
+	h4 {
 		font-size: 1.6rem;
 		line-height: inherit;
 	}
-	.h5, h5 {
+	.h5,
+	h5 {
 		font-size: 1.4rem;
 		line-height: inherit;
 	}
-	.h6, h6 {
+	.h6,
+	h6 {
 		font-size: 1.2rem;
 		line-height: inherit;
 	}
-	p, .p {
+	p,
+	.p {
 		font-size: 1.4rem;
 	}
 }
@@ -326,19 +378,23 @@ a.light-inverse:hover, .light-inverse a:hover {
 		font-size: 3.8rem;
 		line-height: 38px;
 	}
-	.h1, h1 {
+	.h1,
+	h1 {
 		font-size: 2.4rem;
 		line-height: 24px;
 	}
-	.h2, h2 {
+	.h2,
+	h2 {
 		font-size: 2rem;
 		line-height: 20px;
 	}
-	.h3, h3 {
+	.h3,
+	h3 {
 		font-size: 1.6rem;
 		line-height: 16px;
 	}
-	p, .p {
+	p,
+	.p {
 		font-size: 1.2rem;
 		letter-spacing: .3px;
 	}
@@ -351,13 +407,28 @@ a.light-inverse:hover, .light-inverse a:hover {
 	.copy-container-right {
 		text-align: center !important;
 	}
-	.img-caption-left, .img-caption-right, .img-caption-center {
+	.img-caption-left,
+	.img-caption-right,
+	.img-caption-center {
 		font-size: 10px
+	}
+	.txt-left-m {
+		text-align: left !important
+	}
+	.txt-center-m {
+		text-align: center !important
+	}
+	.txt-right-m {
+		text-align: right !important
 	}
 }
 
 @media (max-width: 580px) {
-	p, .p, ul.default li, ul.checkmarks li, ul.starred li {
+	p,
+	.p,
+	ul.default li,
+	ul.checkmarks li,
+	ul.starred li {
 		font-size: 1.2rem;
 	}
 }
