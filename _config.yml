@@ -63,7 +63,7 @@ source:           _gh_pages
 destination:      docs
 host:             0.0.0.0
 port:             11111
-baseurl:          ""
+baseurl:          "/ikimfg"
 #Production : https://12oss.github.io/ikimfg/
 #DEV : http://0.0.0.0:12055/ikimfg/
 #site.github.url
